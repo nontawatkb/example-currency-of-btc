@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6952462A680B3F00911F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952452A680B3F00911F18 /* AppDelegate.swift */; };
+		EF6952482A680B3F00911F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952472A680B3F00911F18 /* SceneDelegate.swift */; };
+		EF69524A2A680B3F00911F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952492A680B3F00911F18 /* ViewController.swift */; };
+		EF69524D2A680B3F00911F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF69524B2A680B3F00911F18 /* Main.storyboard */; };
+		EF69524F2A680B4100911F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF69524E2A680B4100911F18 /* Assets.xcassets */; };
+		EF6952522A680B4100911F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6952502A680B4100911F18 /* LaunchScreen.storyboard */; };
+		EF69525D2A680B4100911F18 /* example_currency_of_btcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69525C2A680B4100911F18 /* example_currency_of_btcTests.swift */; };
+		EF6952672A680B4100911F18 /* example_currency_of_btcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952662A680B4100911F18 /* example_currency_of_btcUITests.swift */; };
+		EF6952692A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952682A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF6952592A680B4100911F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF69523A2A680B3F00911F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6952412A680B3F00911F18;
+			remoteInfo = "example-currency-of-btc";
+		};
+		EF6952632A680B4100911F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF69523A2A680B3F00911F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6952412A680B3F00911F18;
+			remoteInfo = "example-currency-of-btc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6952422A680B3F00911F18 /* example-currency-of-btc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-currency-of-btc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6952452A680B3F00911F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF6952472A680B3F00911F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF6952492A680B3F00911F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF69524C2A680B3F00911F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF69524E2A680B4100911F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6952512A680B4100911F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF6952532A680B4100911F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6952582A680B4100911F18 /* example-currency-of-btcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "example-currency-of-btcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF69525C2A680B4100911F18 /* example_currency_of_btcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_currency_of_btcTests.swift; sourceTree = "<group>"; };
+		EF6952622A680B4100911F18 /* example-currency-of-btcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "example-currency-of-btcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6952662A680B4100911F18 /* example_currency_of_btcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_currency_of_btcUITests.swift; sourceTree = "<group>"; };
+		EF6952682A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_currency_of_btcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF69523F2A680B3F00911F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6952552A680B4100911F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF69525F2A680B4100911F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6952392A680B3F00911F18 = {
+			isa = PBXGroup;
+			children = (
+				EF6952442A680B3F00911F18 /* example-currency-of-btc */,
+				EF69525B2A680B4100911F18 /* example-currency-of-btcTests */,
+				EF6952652A680B4100911F18 /* example-currency-of-btcUITests */,
+				EF6952432A680B3F00911F18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6952432A680B3F00911F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6952422A680B3F00911F18 /* example-currency-of-btc.app */,
+				EF6952582A680B4100911F18 /* example-currency-of-btcTests.xctest */,
+				EF6952622A680B4100911F18 /* example-currency-of-btcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6952442A680B3F00911F18 /* example-currency-of-btc */ = {
+			isa = PBXGroup;
+			children = (
+				EF6952452A680B3F00911F18 /* AppDelegate.swift */,
+				EF6952472A680B3F00911F18 /* SceneDelegate.swift */,
+				EF6952492A680B3F00911F18 /* ViewController.swift */,
+				EF69524B2A680B3F00911F18 /* Main.storyboard */,
+				EF69524E2A680B4100911F18 /* Assets.xcassets */,
+				EF6952502A680B4100911F18 /* LaunchScreen.storyboard */,
+				EF6952532A680B4100911F18 /* Info.plist */,
+			);
+			path = "example-currency-of-btc";
+			sourceTree = "<group>";
+		};
+		EF69525B2A680B4100911F18 /* example-currency-of-btcTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF69525C2A680B4100911F18 /* example_currency_of_btcTests.swift */,
+			);
+			path = "example-currency-of-btcTests";
+			sourceTree = "<group>";
+		};
+		EF6952652A680B4100911F18 /* example-currency-of-btcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6952662A680B4100911F18 /* example_currency_of_btcUITests.swift */,
+				EF6952682A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift */,
+			);
+			path = "example-currency-of-btcUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6952412A680B3F00911F18 /* example-currency-of-btc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF69526C2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btc" */;
+			buildPhases = (
+				EF69523E2A680B3F00911F18 /* Sources */,
+				EF69523F2A680B3F00911F18 /* Frameworks */,
+				EF6952402A680B3F00911F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "example-currency-of-btc";
+			productName = "example-currency-of-btc";
+			productReference = EF6952422A680B3F00911F18 /* example-currency-of-btc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF6952572A680B4100911F18 /* example-currency-of-btcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF69526F2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btcTests" */;
+			buildPhases = (
+				EF6952542A680B4100911F18 /* Sources */,
+				EF6952552A680B4100911F18 /* Frameworks */,
+				EF6952562A680B4100911F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF69525A2A680B4100911F18 /* PBXTargetDependency */,
+			);
+			name = "example-currency-of-btcTests";
+			productName = "example-currency-of-btcTests";
+			productReference = EF6952582A680B4100911F18 /* example-currency-of-btcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF6952612A680B4100911F18 /* example-currency-of-btcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6952722A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btcUITests" */;
+			buildPhases = (
+				EF69525E2A680B4100911F18 /* Sources */,
+				EF69525F2A680B4100911F18 /* Frameworks */,
+				EF6952602A680B4100911F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6952642A680B4100911F18 /* PBXTargetDependency */,
+			);
+			name = "example-currency-of-btcUITests";
+			productName = "example-currency-of-btcUITests";
+			productReference = EF6952622A680B4100911F18 /* example-currency-of-btcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF69523A2A680B3F00911F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EF6952412A680B3F00911F18 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					EF6952572A680B4100911F18 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EF6952412A680B3F00911F18;
+					};
+					EF6952612A680B4100911F18 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EF6952412A680B3F00911F18;
+					};
+				};
+			};
+			buildConfigurationList = EF69523D2A680B3F00911F18 /* Build configuration list for PBXProject "example-currency-of-btc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6952392A680B3F00911F18;
+			productRefGroup = EF6952432A680B3F00911F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6952412A680B3F00911F18 /* example-currency-of-btc */,
+				EF6952572A680B4100911F18 /* example-currency-of-btcTests */,
+				EF6952612A680B4100911F18 /* example-currency-of-btcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6952402A680B3F00911F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6952522A680B4100911F18 /* LaunchScreen.storyboard in Resources */,
+				EF69524F2A680B4100911F18 /* Assets.xcassets in Resources */,
+				EF69524D2A680B3F00911F18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6952562A680B4100911F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6952602A680B4100911F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF69523E2A680B3F00911F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF69524A2A680B3F00911F18 /* ViewController.swift in Sources */,
+				EF6952462A680B3F00911F18 /* AppDelegate.swift in Sources */,
+				EF6952482A680B3F00911F18 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6952542A680B4100911F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF69525D2A680B4100911F18 /* example_currency_of_btcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF69525E2A680B4100911F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6952672A680B4100911F18 /* example_currency_of_btcUITests.swift in Sources */,
+				EF6952692A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF69525A2A680B4100911F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6952412A680B3F00911F18 /* example-currency-of-btc */;
+			targetProxy = EF6952592A680B4100911F18 /* PBXContainerItemProxy */;
+		};
+		EF6952642A680B4100911F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6952412A680B3F00911F18 /* example-currency-of-btc */;
+			targetProxy = EF6952632A680B4100911F18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF69524B2A680B3F00911F18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF69524C2A680B3F00911F18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF6952502A680B4100911F18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6952512A680B4100911F18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF69526A2A680B4100911F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF69526B2A680B4100911F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF69526D2A680B4100911F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y46GLN8894;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "example-currency-of-btc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF69526E2A680B4100911F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y46GLN8894;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "example-currency-of-btc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF6952702A680B4100911F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y46GLN8894;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example-currency-of-btc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/example-currency-of-btc";
+			};
+			name = Debug;
+		};
+		EF6952712A680B4100911F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y46GLN8894;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example-currency-of-btc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/example-currency-of-btc";
+			};
+			name = Release;
+		};
+		EF6952732A680B4100911F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y46GLN8894;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "example-currency-of-btc";
+			};
+			name = Debug;
+		};
+		EF6952742A680B4100911F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y46GLN8894;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "example-currency-of-btc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF69523D2A680B3F00911F18 /* Build configuration list for PBXProject "example-currency-of-btc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF69526A2A680B4100911F18 /* Debug */,
+				EF69526B2A680B4100911F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF69526C2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF69526D2A680B4100911F18 /* Debug */,
+				EF69526E2A680B4100911F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF69526F2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6952702A680B4100911F18 /* Debug */,
+				EF6952712A680B4100911F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6952722A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6952732A680B4100911F18 /* Debug */,
+				EF6952742A680B4100911F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF69523A2A680B3F00911F18 /* Project object */;
+}
