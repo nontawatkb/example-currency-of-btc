@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  example-currency-of-btc
+//  example-currency-to-btc
 //
 //  Created by Nontawat Kanboon on 19/7/2566 BE.
 //

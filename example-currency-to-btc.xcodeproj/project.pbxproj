@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B5A1C9D9F0AF1CF9D9696F /* Pods_example_currency_to_btcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120270FD86F00F22992BC3C0 /* Pods_example_currency_to_btcTests.framework */; };
+		3549FC09BF883E8CAD3C1861 /* Pods_example_currency_to_btc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F215C047ED5A49EEC3DED25 /* Pods_example_currency_to_btc.framework */; };
 		EF6952462A680B3F00911F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952452A680B3F00911F18 /* AppDelegate.swift */; };
 		EF6952482A680B3F00911F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952472A680B3F00911F18 /* SceneDelegate.swift */; };
 		EF69524A2A680B3F00911F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952492A680B3F00911F18 /* ViewController.swift */; };
 		EF69524D2A680B3F00911F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF69524B2A680B3F00911F18 /* Main.storyboard */; };
 		EF69524F2A680B4100911F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF69524E2A680B4100911F18 /* Assets.xcassets */; };
 		EF6952522A680B4100911F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6952502A680B4100911F18 /* LaunchScreen.storyboard */; };
-		EF69525D2A680B4100911F18 /* example_currency_of_btcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69525C2A680B4100911F18 /* example_currency_of_btcTests.swift */; };
-		EF6952672A680B4100911F18 /* example_currency_of_btcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952662A680B4100911F18 /* example_currency_of_btcUITests.swift */; };
-		EF6952692A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6952682A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift */; };
+		EF69525D2A680B4100911F18 /* example_currency_to_btcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69525C2A680B4100911F18 /* example_currency_to_btcTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,17 +26,15 @@
 			remoteGlobalIDString = EF6952412A680B3F00911F18;
 			remoteInfo = "example-currency-of-btc";
 		};
-		EF6952632A680B4100911F18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF69523A2A680B3F00911F18 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF6952412A680B3F00911F18;
-			remoteInfo = "example-currency-of-btc";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF6952422A680B3F00911F18 /* example-currency-of-btc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-currency-of-btc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120270FD86F00F22992BC3C0 /* Pods_example_currency_to_btcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_example_currency_to_btcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F215C047ED5A49EEC3DED25 /* Pods_example_currency_to_btc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_example_currency_to_btc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5465273428EA2B0E90E1B15B /* Pods-example-currency-to-btcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-currency-to-btcTests.debug.xcconfig"; path = "Target Support Files/Pods-example-currency-to-btcTests/Pods-example-currency-to-btcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB901226F52B662E099C4B0E /* Pods-example-currency-to-btcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-currency-to-btcTests.release.xcconfig"; path = "Target Support Files/Pods-example-currency-to-btcTests/Pods-example-currency-to-btcTests.release.xcconfig"; sourceTree = "<group>"; };
+		E36355BD0A74A789D6FF1BD6 /* Pods-example-currency-to-btc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-currency-to-btc.release.xcconfig"; path = "Target Support Files/Pods-example-currency-to-btc/Pods-example-currency-to-btc.release.xcconfig"; sourceTree = "<group>"; };
+		EF6952422A680B3F00911F18 /* example-currency-to-btc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-currency-to-btc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6952452A680B3F00911F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF6952472A680B3F00911F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF6952492A680B3F00911F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +42,9 @@
 		EF69524E2A680B4100911F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6952512A680B4100911F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF6952532A680B4100911F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF6952582A680B4100911F18 /* example-currency-of-btcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "example-currency-of-btcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF69525C2A680B4100911F18 /* example_currency_of_btcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_currency_of_btcTests.swift; sourceTree = "<group>"; };
-		EF6952622A680B4100911F18 /* example-currency-of-btcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "example-currency-of-btcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF6952662A680B4100911F18 /* example_currency_of_btcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_currency_of_btcUITests.swift; sourceTree = "<group>"; };
-		EF6952682A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_currency_of_btcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF6952582A680B4100911F18 /* example-currency-to-btcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "example-currency-to-btcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF69525C2A680B4100911F18 /* example_currency_to_btcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_currency_to_btcTests.swift; sourceTree = "<group>"; };
+		F9BBD7A4AF207C3CB2D8B06B /* Pods-example-currency-to-btc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example-currency-to-btc.debug.xcconfig"; path = "Target Support Files/Pods-example-currency-to-btc/Pods-example-currency-to-btc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3549FC09BF883E8CAD3C1861 /* Pods_example_currency_to_btc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,40 +60,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF69525F2A680B4100911F18 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				18B5A1C9D9F0AF1CF9D9696F /* Pods_example_currency_to_btcTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33E0D473882D649A7A21E79E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9BBD7A4AF207C3CB2D8B06B /* Pods-example-currency-to-btc.debug.xcconfig */,
+				E36355BD0A74A789D6FF1BD6 /* Pods-example-currency-to-btc.release.xcconfig */,
+				5465273428EA2B0E90E1B15B /* Pods-example-currency-to-btcTests.debug.xcconfig */,
+				DB901226F52B662E099C4B0E /* Pods-example-currency-to-btcTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5815A025457BFE899062A98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F215C047ED5A49EEC3DED25 /* Pods_example_currency_to_btc.framework */,
+				120270FD86F00F22992BC3C0 /* Pods_example_currency_to_btcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF6952392A680B3F00911F18 = {
 			isa = PBXGroup;
 			children = (
-				EF6952442A680B3F00911F18 /* example-currency-of-btc */,
-				EF69525B2A680B4100911F18 /* example-currency-of-btcTests */,
-				EF6952652A680B4100911F18 /* example-currency-of-btcUITests */,
+				EF6952442A680B3F00911F18 /* example-currency-to-btc */,
+				EF69525B2A680B4100911F18 /* example-currency-to-btcTests */,
 				EF6952432A680B3F00911F18 /* Products */,
+				33E0D473882D649A7A21E79E /* Pods */,
+				A5815A025457BFE899062A98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		EF6952432A680B3F00911F18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF6952422A680B3F00911F18 /* example-currency-of-btc.app */,
-				EF6952582A680B4100911F18 /* example-currency-of-btcTests.xctest */,
-				EF6952622A680B4100911F18 /* example-currency-of-btcUITests.xctest */,
+				EF6952422A680B3F00911F18 /* example-currency-to-btc.app */,
+				EF6952582A680B4100911F18 /* example-currency-to-btcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF6952442A680B3F00911F18 /* example-currency-of-btc */ = {
+		EF6952442A680B3F00911F18 /* example-currency-to-btc */ = {
 			isa = PBXGroup;
 			children = (
 				EF6952452A680B3F00911F18 /* AppDelegate.swift */,
@@ -107,50 +118,44 @@
 				EF6952502A680B4100911F18 /* LaunchScreen.storyboard */,
 				EF6952532A680B4100911F18 /* Info.plist */,
 			);
-			path = "example-currency-of-btc";
+			path = "example-currency-to-btc";
 			sourceTree = "<group>";
 		};
-		EF69525B2A680B4100911F18 /* example-currency-of-btcTests */ = {
+		EF69525B2A680B4100911F18 /* example-currency-to-btcTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF69525C2A680B4100911F18 /* example_currency_of_btcTests.swift */,
+				EF69525C2A680B4100911F18 /* example_currency_to_btcTests.swift */,
 			);
-			path = "example-currency-of-btcTests";
-			sourceTree = "<group>";
-		};
-		EF6952652A680B4100911F18 /* example-currency-of-btcUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EF6952662A680B4100911F18 /* example_currency_of_btcUITests.swift */,
-				EF6952682A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift */,
-			);
-			path = "example-currency-of-btcUITests";
+			path = "example-currency-to-btcTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF6952412A680B3F00911F18 /* example-currency-of-btc */ = {
+		EF6952412A680B3F00911F18 /* example-currency-to-btc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF69526C2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btc" */;
+			buildConfigurationList = EF69526C2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-to-btc" */;
 			buildPhases = (
+				31C9DAB9C2563CA5B4B3A67E /* [CP] Check Pods Manifest.lock */,
 				EF69523E2A680B3F00911F18 /* Sources */,
 				EF69523F2A680B3F00911F18 /* Frameworks */,
 				EF6952402A680B3F00911F18 /* Resources */,
+				79B0F13784FF63020571047B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "example-currency-of-btc";
+			name = "example-currency-to-btc";
 			productName = "example-currency-of-btc";
-			productReference = EF6952422A680B3F00911F18 /* example-currency-of-btc.app */;
+			productReference = EF6952422A680B3F00911F18 /* example-currency-to-btc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF6952572A680B4100911F18 /* example-currency-of-btcTests */ = {
+		EF6952572A680B4100911F18 /* example-currency-to-btcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF69526F2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btcTests" */;
+			buildConfigurationList = EF69526F2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-to-btcTests" */;
 			buildPhases = (
+				AC571DB7B0A1FA6ED4D5D9BA /* [CP] Check Pods Manifest.lock */,
 				EF6952542A680B4100911F18 /* Sources */,
 				EF6952552A680B4100911F18 /* Frameworks */,
 				EF6952562A680B4100911F18 /* Resources */,
@@ -160,28 +165,10 @@
 			dependencies = (
 				EF69525A2A680B4100911F18 /* PBXTargetDependency */,
 			);
-			name = "example-currency-of-btcTests";
+			name = "example-currency-to-btcTests";
 			productName = "example-currency-of-btcTests";
-			productReference = EF6952582A680B4100911F18 /* example-currency-of-btcTests.xctest */;
+			productReference = EF6952582A680B4100911F18 /* example-currency-to-btcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EF6952612A680B4100911F18 /* example-currency-of-btcUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF6952722A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btcUITests" */;
-			buildPhases = (
-				EF69525E2A680B4100911F18 /* Sources */,
-				EF69525F2A680B4100911F18 /* Frameworks */,
-				EF6952602A680B4100911F18 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF6952642A680B4100911F18 /* PBXTargetDependency */,
-			);
-			name = "example-currency-of-btcUITests";
-			productName = "example-currency-of-btcUITests";
-			productReference = EF6952622A680B4100911F18 /* example-currency-of-btcUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,13 +187,9 @@
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = EF6952412A680B3F00911F18;
 					};
-					EF6952612A680B4100911F18 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = EF6952412A680B3F00911F18;
-					};
 				};
 			};
-			buildConfigurationList = EF69523D2A680B3F00911F18 /* Build configuration list for PBXProject "example-currency-of-btc" */;
+			buildConfigurationList = EF69523D2A680B3F00911F18 /* Build configuration list for PBXProject "example-currency-to-btc" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +202,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF6952412A680B3F00911F18 /* example-currency-of-btc */,
-				EF6952572A680B4100911F18 /* example-currency-of-btcTests */,
-				EF6952612A680B4100911F18 /* example-currency-of-btcUITests */,
+				EF6952412A680B3F00911F18 /* example-currency-to-btc */,
+				EF6952572A680B4100911F18 /* example-currency-to-btcTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,14 +226,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF6952602A680B4100911F18 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31C9DAB9C2563CA5B4B3A67E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-example-currency-to-btc-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		79B0F13784FF63020571047B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-example-currency-to-btc/Pods-example-currency-to-btc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-example-currency-to-btc/Pods-example-currency-to-btc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-example-currency-to-btc/Pods-example-currency-to-btc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC571DB7B0A1FA6ED4D5D9BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-example-currency-to-btcTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF69523E2A680B3F00911F18 /* Sources */ = {
@@ -268,16 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF69525D2A680B4100911F18 /* example_currency_of_btcTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF69525E2A680B4100911F18 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF6952672A680B4100911F18 /* example_currency_of_btcUITests.swift in Sources */,
-				EF6952692A680B4100911F18 /* example_currency_of_btcUITestsLaunchTests.swift in Sources */,
+				EF69525D2A680B4100911F18 /* example_currency_to_btcTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,13 +316,8 @@
 /* Begin PBXTargetDependency section */
 		EF69525A2A680B4100911F18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF6952412A680B3F00911F18 /* example-currency-of-btc */;
+			target = EF6952412A680B3F00911F18 /* example-currency-to-btc */;
 			targetProxy = EF6952592A680B4100911F18 /* PBXContainerItemProxy */;
-		};
-		EF6952642A680B4100911F18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EF6952412A680B3F00911F18 /* example-currency-of-btc */;
-			targetProxy = EF6952632A680B4100911F18 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -366,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,14 +457,15 @@
 		};
 		EF69526D2A680B4100911F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BBD7A4AF207C3CB2D8B06B /* Pods-example-currency-to-btc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y46GLN8894;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "example-currency-of-btc/Info.plist";
+				INFOPLIST_FILE = "example-currency-to-btc/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -450,8 +476,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btc";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-to-btc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,6 +487,7 @@
 		};
 		EF69526E2A680B4100911F18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36355BD0A74A789D6FF1BD6 /* Pods-example-currency-to-btc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,7 +495,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y46GLN8894;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "example-currency-of-btc/Info.plist";
+				INFOPLIST_FILE = "example-currency-to-btc/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +506,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btc";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-to-btc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +516,7 @@
 		};
 		EF6952702A680B4100911F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5465273428EA2B0E90E1B15B /* Pods-example-currency-to-btcTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,19 +524,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y46GLN8894;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btcTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-to-btcTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example-currency-of-btc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/example-currency-of-btc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example-currency-to-btc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/example-currency-to-btc";
 			};
 			name = Debug;
 		};
 		EF6952712A680B4100911F18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB901226F52B662E099C4B0E /* Pods-example-currency-to-btcTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,57 +545,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y46GLN8894;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btcTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-to-btcTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example-currency-of-btc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/example-currency-of-btc";
-			};
-			name = Release;
-		};
-		EF6952732A680B4100911F18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y46GLN8894;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btcUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "example-currency-of-btc";
-			};
-			name = Debug;
-		};
-		EF6952742A680B4100911F18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y46GLN8894;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com-test.example-currency-of-btcUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "example-currency-of-btc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/example-currency-to-btc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/example-currency-to-btc";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF69523D2A680B3F00911F18 /* Build configuration list for PBXProject "example-currency-of-btc" */ = {
+		EF69523D2A680B3F00911F18 /* Build configuration list for PBXProject "example-currency-to-btc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF69526A2A680B4100911F18 /* Debug */,
@@ -574,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF69526C2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btc" */ = {
+		EF69526C2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-to-btc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF69526D2A680B4100911F18 /* Debug */,
@@ -583,20 +577,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF69526F2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btcTests" */ = {
+		EF69526F2A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-to-btcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF6952702A680B4100911F18 /* Debug */,
 				EF6952712A680B4100911F18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF6952722A680B4100911F18 /* Build configuration list for PBXNativeTarget "example-currency-of-btcUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF6952732A680B4100911F18 /* Debug */,
-				EF6952742A680B4100911F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

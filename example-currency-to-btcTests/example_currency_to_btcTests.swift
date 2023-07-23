@@ -1,12 +1,12 @@
 //
-//  example_currency_of_btcTests.swift
-//  example-currency-of-btcTests
+//  example_currency_to_btcTests.swift
+//  example-currency-to-btcTests
 //
 //  Created by Nontawat Kanboon on 19/7/2566 BE.
 //
 
 import XCTest
-@testable import example_currency_of_btc
+@testable import example_currency_to_btc
 
 final class example_currency_of_btcTests: XCTestCase {
 
